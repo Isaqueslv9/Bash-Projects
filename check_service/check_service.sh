@@ -14,7 +14,7 @@ if systemctl is-active --quiet $1; then
     echo "O serviço $1 está ativo."
 else
     echo "O serviço $1 não está ativo. Vamos iniciá-lo..."
-    systemctl start $1 --quiet
+    systemctl start $1 
         if systemctl is-active --quiet "$1"; then
             echo "O serviço $1 foi iniciado com sucesso."
         else
