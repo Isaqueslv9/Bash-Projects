@@ -3,7 +3,7 @@
 
 # Programa    : log_monitor.sh
 # Descrição   : Script para monitorar arquivos de log no Linux.
-# Uso         : ./log_monitor.sh <arquivo_de_log> <palavra a ser procurada> <quantidade das ultiams linhas>
+# Uso         : sudo ./log_monitor.sh <arquivo_de_log> <palavra a ser procurada> <quantidade das ultiams linhas>
 # Autor       : Isaque S.
 # Versão      : 1.0
 # ==========================================
