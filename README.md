@@ -32,7 +32,7 @@ Verifica se um serviço está ativo e tenta iniciar caso esteja parado.
 
 ## Requisitos
 
-* Linux (testado no Rocky Linux)
+* Linux (testado no Rocky Linux e Ubuntu)
 * Bash
 * systemd
 * Permissão de root (para alguns scripts)
