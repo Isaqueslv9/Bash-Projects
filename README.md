@@ -11,7 +11,9 @@ Repositório com scripts em Bash desenvolvidos durante meus estudos em Linux e S
 ```bash
 bash-projects/
  ├── check-service/
- 
+ ├── log_monitor/
+ ├── backup_system/
+ ├── sentinel_pulse/
 ```
 
 Cada pasta contém:
