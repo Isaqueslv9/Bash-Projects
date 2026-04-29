@@ -1,21 +1,11 @@
-# 🚀 Sentinel Pulse
+# Sentinel Pulse
 
 **Sentinel Pulse** é uma ferramenta em Bash para monitoramento básico de saúde do sistema Linux.
 Com uma interface interativa no terminal, permite visualizar rapidamente o estado de CPU, memória, disco e serviços essenciais.
 
 ---
 
-## 🧠 Objetivo
-
-Fornecer uma solução simples e leve para:
-
-* Monitoramento rápido de recursos
-* Verificação de serviços ativos
-* Apoio a estudos de automação e DevOps
-
----
-
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 * 📊 Monitoramento de CPU
 * 🧠 Monitoramento de memória RAM
@@ -25,7 +15,7 @@ Fornecer uma solução simples e leve para:
 
 ---
 
-## 🏗️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 * Bash Script
 * Comandos Linux nativos:
@@ -37,44 +27,17 @@ Fornecer uma solução simples e leve para:
 
 ---
 
-## 📦 Estrutura do projeto
 
-```
-sentinel-pulse/
-├── sentinel-pulse.sh
-└── README.md
-```
+## Como usar
 
----
-
-## ▶️ Como usar
-
-### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/sentinel-pulse.git
-cd sentinel-pulse
+./sentinel-pulse.sh -h ( para mostrar menu)
 ```
 
 ---
 
-### 2. Dar permissão de execução
-
-```bash
-chmod +x sentinel-pulse.sh
-```
-
----
-
-### 3. Executar o script
-
-```bash
-./sentinel-pulse.sh
-```
-
----
-
-## 📋 Menu do sistema
+## Menu do sistema
 
 ```
 1) Monitorar CPU
@@ -86,7 +49,7 @@ chmod +x sentinel-pulse.sh
 
 ---
 
-## 🧪 Exemplos de uso
+## Exemplos de uso
 
 * Ver consumo atual de CPU
 * Checar uso de memória rapidamente
@@ -95,14 +58,14 @@ chmod +x sentinel-pulse.sh
 
 ---
 
-## ⚠️ Requisitos
+## Requisitos
 
 * Sistema Linux com `systemd`
 * Permissões adequadas (alguns comandos podem exigir `sudo`)
 
 ---
 
-## 🔥 Possíveis melhorias futuras
+## Possíveis melhorias futuras
 
 * [ ] Logs de monitoramento
 * [ ] Alertas automáticos (CPU, RAM, Disco)
@@ -111,13 +74,3 @@ chmod +x sentinel-pulse.sh
 * [ ] Interface mais amigável
 
 ---
-
-## 👨‍💻 Autor
-
-Desenvolvido por Isaque S.
-
----
-
-## 📌 Licença
-
-Este projeto é livre para uso educacional e aprimoramento profissional.
