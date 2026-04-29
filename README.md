@@ -29,6 +29,17 @@ Cada pasta contém:
 
 Verifica se um serviço está ativo e tenta iniciar caso esteja parado.
 
+### 🔹 Log Monitor
+
+Faz o monitoramento continuo de logs do arquivo informado, com filtros personalizados e salva resultados em arquivo.
+
+### 🔹 Backup System
+
+Realiza o backup automatizado de diretorios Linux, compacta em tar.gz, remove automaticamente backups antigos e salva com data e hora.
+
+### 🔹 Sentinel Pulse
+
+Faz o monitoramento básico de saúde do sistema Linux. Permite visualizar rapidamente o estado da CPU, memória, disco e serviçoes.
 
 ---
 
@@ -46,7 +57,6 @@ Verifica se um serviço está ativo e tenta iniciar caso esteja parado.
 * Praticar Shell Script na prática
 * Aprender Linux aplicado a cenários reais
 * Desenvolver habilidades de automação
-* Evoluir para ferramentas DevOps
 
 ---
 
